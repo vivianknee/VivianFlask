@@ -4,7 +4,7 @@ services:
                 image: flask_vivian_port
                 build: .
                 ports:
-                        - "8087:8080"
+                        - "8092:8080"
                 volumes:
                         - persistent_volume:/app/volumes
 volumes:
